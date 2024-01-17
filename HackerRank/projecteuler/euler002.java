@@ -1,9 +1,5 @@
 package HackerRank.projecteuler;
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 
 //By considering the terms in the Fibonacci sequence whose values do not exceed N, find the sum of the even-valued terms.

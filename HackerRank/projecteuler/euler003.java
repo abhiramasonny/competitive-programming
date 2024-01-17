@@ -1,9 +1,7 @@
 package HackerRank.projecteuler;
-import java.io.*;
+
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+
 //What is the largest prime factor of a given number N?
 public class euler003 {
     
