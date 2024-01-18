@@ -1,10 +1,6 @@
 package HackerRank.projecteuler;
 
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 
 //How many routes are there through a NxM grid from top to bottom? As number of ways can be very large, print it modulo (10^9+7).

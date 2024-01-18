@@ -5,12 +5,13 @@ import java.util.*;
 //What is the smallest positive number that is evenly divisible(divisible with no remainder) by all of the numbers from 1 to N?
 public class euler005 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int t = in.nextInt();
-        for(int a0 = 0; a0 < t; a0++){
-            int n = in.nextInt();
-            int result = findSmallestMultiple(n);
-            System.out.println(result);
+        try (Scanner in = new Scanner(System.in)) {
+            int t = in.nextInt();
+            for(int a0 = 0; a0 < t; a0++){
+                int n = in.nextInt();
+                int result = findSmallestMultiple(n);
+                System.out.println(result);
+            }
         }
     }
 
